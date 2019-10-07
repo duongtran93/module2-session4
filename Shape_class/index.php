@@ -10,7 +10,7 @@ echo "Circle perimeter: " . $circle->calculatePerimeter() . "<br>";
 
 $cylinder = new Cylinder("Cylinder 01", 3, 4);
 echo "Cylinder area: " . $cylinder->calculateArea() . "<br>";
-echo "Cylinder perimeter: " . $cylinder->calculatePerimeter() . "<br>";
+echo "Cylinder volume: " . $cylinder->calculateVolume() . "<br>";
 
 $rectangle = new Rectangle("Rectangle 01", 3, 4);
 echo "Rectangle area: " . $rectangle->calculateArea() . "<br>";
